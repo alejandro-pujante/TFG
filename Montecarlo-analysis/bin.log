@@ -1,0 +1,53 @@
+PECLET NUMBER =  0.6
+PECLET NUMBER =  0.6
+sfepy: left over: ['__name__', '__doc__', '__package__', '__loader__', '__spec__', '__file__', '__cached__', '__builtins__', 'np', 'csv', 'json', 'f', 'limits', 'g', 'sources', 'delta', 'x_left', 'x_right', 'y_up', 'y_down', 'q1', 'q2', 'q3', 'equations', 'get_source_cells_1', 'get_source_cells_2', 'get_source_cells_3', 'q_file', 'q_writer', 'verbose', '_filename']
+sfepy: reading mesh (/home/chimere1/TFG-Alejandro-Montecarlo/montecarlo/meshes/2D/grid.mesh)...
+sfepy:   number of vertices: 11827
+sfepy:   number of cells:
+sfepy:     2_3: 23252
+sfepy: ...done in 0.02 s
+sfepy: warning: bad element orientation, trying to correct...
+sfepy: ...corrected
+sfepy: creating regions...
+sfepy:     Omega
+sfepy:     g_b1
+sfepy:     g_b2
+sfepy:     g_b3
+sfepy:     g_b4
+sfepy:     Omega_1
+sfepy:     Omega_2
+sfepy:     Omega_3
+sfepy:     Gamma_build
+sfepy: ...done in 0.02 s
+sfepy: equation "Diffusion":
+sfepy:   dw_advect_div_free.i.Omega( wind.val, s, c ) + dw_laplace.i.Omega( diff.val, s, c )
+                    = dw_volume_lvf.i.Omega_1( source_1.val, s ) 
+                    + dw_volume_lvf.i.Omega_2( source_2.val, s )  
+                    + dw_volume_lvf.i.Omega_3( source_3.val, s ) 
+sfepy: using solvers:
+                ts: no ts
+               nls: newton
+                ls: ls
+sfepy: updating variables...
+sfepy: ...done
+sfepy: setting up dof connectivities...
+sfepy: ...done in 0.00 s
+sfepy: matrix shape: (11427, 11427)
+sfepy: assembling matrix graph...
+sfepy: ...done in 0.01 s
+sfepy: matrix structural nonzeros: 79185 (6.06e-02% fill)
+sfepy: updating variables...
+sfepy: ...done
+sfepy: updating materials...
+sfepy:     source_3
+sfepy:     source_2
+sfepy:     diff
+sfepy:     wind
+sfepy:     source_1
+sfepy: ...done in 0.01 s
+sfepy: nls: iter: 0, residual: 2.734927e+01 (rel: 1.000000e+00)
+sfepy:   residual:    0.01 [s]
+sfepy:     matrix:    0.02 [s]
+sfepy:      solve:    0.11 [s]
+sfepy: nls: iter: 1, residual: 1.391057e-13 (rel: 5.086268e-15)
+sfepy: solved in 1 steps in 0.18 seconds
