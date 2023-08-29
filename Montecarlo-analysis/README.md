@@ -86,5 +86,5 @@ podemos poner el comando $`./montecarlo 500 > exit.log &`
 Una vez el algoritmo haya terminado todas las simulaciones dará los resultados en el fihero emissions_results.json, indicando el número de la fuente y la estimación de su flujo de emisión.
 
 
-**NOTA**: Es imortante que si se interrumpe la simulación y no se han eliminado los ficheros q_values.csv y error_values.csv en la carpeta outputs/test estos sean eliminados antes de empezar otra simulación de nuevo.
+**NOTA**: Es importante que si se interrumpe la simulación y no se han eliminado los ficheros q_values.csv y error_values.csv en la carpeta outputs/test estos sean eliminados antes de empezar otra simulación de nuevo.
 
