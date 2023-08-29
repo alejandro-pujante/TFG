@@ -10,5 +10,7 @@ El trabajo está marcado dentro del contexto de los modelos de propagación de c
 En el se propone un algoritmo capaz de estimar la tasa o flujo de emisión de diferentes fuentes de contaminación atmosférica a través de datos de concentración reportados por dispositivos de calidad del aire. Está basado en invertir un modelo matemático para dar con la solución
 que más correlación tiene con los datos de campo medidos por los dispositivos, todo esto a través de modelos de Montecarlo.
 
+El directorio gaussian_plume hace este análisis utilizando un modelo sencillo de dispersión de contaminantes en forma de distribución normal, mientras que el directorio Montecarlo-analysis lo hace resolviendo la ecuación de difusión-convección. Este modelo es libre de uso y hay un README completo en el directorio.
+
 
 
